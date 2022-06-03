@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+* {
+  text-transform: uppercase !important;
+  font-family: "Fjalla One", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.headerBorder {
+  border-bottom: 0.5px solid gray;
+  width: auto !important;
+
+  .headerLogo {
+    padding: 0 !important;
+  }
+
+  a {
+    i {
+      padding-left: 0.4em;
+    }
+  }
+  .headerCard {
+    padding: 1em 4em !important;
+  }
+
+  .headerRegister {
+    color: red !important;
+  }
+}
+
+.headerListButton {
+  div {
+    button:first-child {
+      text-align: left;
+    }
+
+    button {
+      font-family: "Fjalla One", sans-serif !important;
+      font-weight: 300 !important;
+    }
+
+    button:last-child {
+      text-align: end;
+    }
+  }
+}
